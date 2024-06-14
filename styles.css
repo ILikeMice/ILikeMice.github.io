@@ -1,14 +1,14 @@
 .window {
     border-radius: 30px;
     padding: 10px;
-    height: 250px;
+    min-height: 250px;
     flex: 1;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
     background-color: #e9e9e9;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    
+
 }
 
 .title {
@@ -16,6 +16,8 @@
 }
 
 .projectname {
+    position: relative;
+    transition: all 0.3s ease-in-out;
     font-size: 150%;
     color: black; 
     font-weight: 600;
@@ -23,25 +25,41 @@
 }
 
 .projectname:hover {
-    color: grey;
+    opacity: 0.3;
 }
 
 .project {
-    position: relative;
+
     width: auto;
-    height: 30px;
+    max-height: 30px;
     padding: 10px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 25px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     overflow: hidden;
+    text-align: center;
 }
 
 
 
 .project:hover {
-    height: 250px;
+    max-height: 250px;
 }
 
+
+.project:hover .projectname {
+    opacity: 0.3;
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin: auto;
+}
+
+.description { 
+    font-size: 150%;
+    color: black; 
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
