@@ -6,22 +6,22 @@
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
-    background-color: #e9e9e9;
+    background-color: #525252;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-
 }
 
 .title {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Droid Sans Mono', 'monospace', monospace;
+    color: 	#4EC9B0;
 }
 
 .projectname {
     position: relative;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     font-size: 150%;
-    color: black; 
+    color: #DCDCAA; 
     font-weight: 600;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Droid Sans Mono', 'monospace', monospace;
 }
 
 .projectname:hover {
@@ -29,7 +29,6 @@
 }
 
 .project {
-
     width: auto;
     max-height: 30px;
     padding: 10px;
@@ -52,14 +51,15 @@
 
 .project:hover .projectname {
     opacity: 0.3;
-    font-size: 2rem; /* Adjust the font size as needed */
+    font-size: 1.9rem;
     margin: auto;
+
 }
 
 .description { 
     font-size: 150%;
-    color: black; 
+    color: 	#CE9178; 
     font-weight: 600;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Droid Sans Mono', 'monospace', monospace;
 
 }
