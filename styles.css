@@ -6,7 +6,7 @@
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
-    background-color: #525252;
+    background-color: #353535;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -21,6 +21,7 @@
     font-size: 150%;
     color: #DCDCAA; 
     font-weight: 600;
+    text-decoration: none;
     font-family: 'Droid Sans Mono', 'monospace', monospace;
 }
 
