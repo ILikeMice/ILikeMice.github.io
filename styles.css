@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
 .window {
     border-radius: 30px;
     padding: 10px;
@@ -63,4 +69,34 @@
     font-weight: 600;
     font-family: 'Droid Sans Mono', 'monospace', monospace;
 
+}
+
+.skillname {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Droid Sans Mono', 'monospace', monospace;
+    color: #CCCCCC;
+}
+
+.discordfield {
+    transition: all ease-in-out 0.1s;
+    background-color: #353535;
+    height: 42px;
+    border-radius: 20px; 
+    padding: 5px;
+}
+
+.discordfield:hover {
+    transform: scale(1.1);
+}
+
+.consoleblinker {
+    animation: consoleblink  1s ease-in-out infinite;
+}
+
+@keyframes consoleblink {
+    50% {
+        opacity: 0%;
+    }
 }
